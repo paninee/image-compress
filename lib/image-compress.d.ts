@@ -11,6 +11,7 @@ export declare class ImageCompress {
     static uploadFile(render: Renderer2): Promise<{
         image: string;
         orientation: DOC_ORIENTATION;
+        file: any;
     }>;
     static compress(imageDataUrlSource: string, orientation: DOC_ORIENTATION, render: Renderer2, ratio?: number, quality?: number): Promise<string>;
     /**

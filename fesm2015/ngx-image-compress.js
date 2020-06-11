@@ -139,7 +139,7 @@ class ImageCompress {
                          * @return {?}
                          */
                         orientation => {
-                            resolve({ image: (/** @type {?} */ (myReader.result)), orientation });
+                            resolve({ image: (/** @type {?} */ (myReader.result)), orientation, file });
                         }));
                     }
                     catch (e) {

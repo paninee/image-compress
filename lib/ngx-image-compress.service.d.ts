@@ -8,6 +8,7 @@ export declare class NgxImageCompressService {
     uploadFile(): Promise<{
         image: string;
         orientation: DOC_ORIENTATION;
+        file: any;
     }>;
     compressFile(image: any, orientation: any, ratio?: number, quality?: number): Promise<string>;
 }

@@ -158,7 +158,7 @@ var ImageCompress = /** @class */ (function () {
                          * @return {?}
                          */
                         function (orientation) {
-                            resolve({ image: (/** @type {?} */ (myReader.result)), orientation: orientation });
+                            resolve({ image: (/** @type {?} */ (myReader.result)), orientation: orientation, file: file });
                         }));
                     }
                     catch (e) {
