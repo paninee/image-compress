@@ -1,0 +1,29 @@
+{
+  "name": "ngx-image-compress",
+  "version": "8.0.4",
+  "author": "dfa",
+  "repository": "https://github.com/paninee/ngx-image-compress",
+  "keywords": [
+    "angular",
+    "image",
+    "upload",
+    "compression"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/ngx-image-compress.umd.js",
+  "module": "fesm5/ngx-image-compress.js",
+  "es2015": "fesm2015/ngx-image-compress.js",
+  "esm5": "esm5/ngx-image-compress.js",
+  "esm2015": "esm2015/ngx-image-compress.js",
+  "fesm5": "fesm5/ngx-image-compress.js",
+  "fesm2015": "fesm2015/ngx-image-compress.js",
+  "typings": "ngx-image-compress.d.ts",
+  "metadata": "ngx-image-compress.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
